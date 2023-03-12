@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b0e13;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    margin: 0;
+    padding-top: 35px;
+    background-color: #111419;
+    background-position: 100%;
+    padding-bottom: 35px;
+    margin-bottom: 0px;
+}
+
+.menu li {
+    list-style: none; 
+    margin: 5px 10px 0px 35px;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menuli {
+    font-size: 30px;
+    padding-right: 50%;
+    padding-left: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 2px 3px black;
+}
+
+.principal {
+    padding-top: 8%;
+    margin-left: 3%;
+}
+
+.sobre {
+    font-size:  12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.sobret {
+    font-size: xxx-large;
+    padding-bottom: 5px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 2px 3px 3px #111419;
+}
+
+.sobre h2 {
+    padding-bottom: 10px;
+    color: #686b70;
+}
+
+.sobreh2 {
+    margin-top: 1px;
+}
+
+.principal hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 55%;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.icons img {
+    width: 25px;
+    height: 50%;
+    margin-top: 0px;
+    margin: 20px 10px 15px 3%;
+    border-radius: 20%;
+    border-color: white;
+    padding: 7px 7px 7px 7px;
+    border: 2px solid white;
+}
+
+.container img {
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-right: 12%;
+    margin-top: 4%;
+    border-radius: 50%;
+    border: 2px #686b70 solid;
+}
+
+footer {
+    width: 100%;
+    align-items: end;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111419;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin-top: 8%;
+}
